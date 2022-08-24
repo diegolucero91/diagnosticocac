@@ -1,0 +1,44 @@
+.banner{
+    display: grid;
+    grid-template-areas: "img-ban t-ban";
+    width:70vw;
+    border: 5px solid #745834;
+    border-radius: 20px;
+    background-color: #c5bcb0;
+
+}
+
+.img{
+    grid-area: "img-ban";
+    display:flex;
+    width: fit-content;
+
+}
+
+.texto-ban{
+    grid-area: "t-ban";
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h3, h5{
+    margin-left: 1.5rem;
+    width: 70%;
+
+}
+h1{
+    margin-top: 2.5rem;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 25px;
+    color: #946a33;
+    margin-bottom: 2.5rem;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 16px;
+    line-height: 25px;
+}
